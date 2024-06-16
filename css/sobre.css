@@ -1,0 +1,37 @@
+/*introdução*/
+
+.introducao {
+  font: var(--font-g);
+  line-height: 1;
+  padding: 60px 10px;
+}
+
+/* Sobre */
+
+.sobre {
+  border-top: 2px solid var(--cor-p1);
+  border-bottom: 2px solid var(--cor-p1);
+  padding: 60px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+}
+
+.sobre-info h1 {
+  font: var(--font-g);
+  margin-bottom: 0.5rem;
+}
+
+.sobre-info p {
+  font: var(--font-p);
+  margin-bottom: 1rem;
+  color: var(--cor-04);
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+}

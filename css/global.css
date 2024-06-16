@@ -1,0 +1,56 @@
+:root {
+  /* cores 
+  /* cores bases */
+  --cor-01: #ffffff;
+  --cor-02: #f7f7f7;
+  --cor-03: #a4a4a4;
+  --cor-04: #7c7c7c;
+  --cor-05: #222222;
+  /* cores primarias */
+  --cor-p1: #2c70ff;
+  --cor-p2: #122ab2;
+  /* cores secuncarias */
+  --cor-s1: #ae81ff;
+  --cor-s2: #f9265e;
+  --cor-s3: #66d9eb;
+  /* tipografias */
+  --font-p: 400 1.25rem/1.4 "Nunito", Arial, Helvetica, sans-serif;
+  --font-pi: italic 400 1.25rem/1.4 "Nunito", Arial, Helvetica, sans-serif;
+  --font-m: bold 2.25rem/1 "Nunito", Arial, Helvetica, sans-serif;
+  --font-g: bold 3rem/1 "Nunito", Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: var(--cor-05);
+}
+
+ul,
+menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
